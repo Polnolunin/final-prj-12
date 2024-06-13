@@ -1,7 +1,7 @@
 name: golang-pipeline
 on: 
-push:
-branches: [ "first" ]
+ push:
+  branches: [ "first" ]
 jobs:
   test:
     runs-on: ubuntu-latest
