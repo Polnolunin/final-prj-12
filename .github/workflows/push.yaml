@@ -39,7 +39,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v5.5.1
         with:
-          images: Polnolunin/final-prj-12
+          images: polnolunin/final-prj-12
 
       - name: Build and push Docker Inage
         uses: docker/build-push-action@v5
